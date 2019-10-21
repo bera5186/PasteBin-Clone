@@ -27,12 +27,13 @@
                 <select class="form-control" id="expire">
                     <option>Never</option>
                     <option>10 Minutes</option>
+                    <option>2 Minutes</option>
                     <option>1 Hours</option>
                     <option>5 Hours</option>
                     <option>1 Day</option>
                 </select>
             </div>
-            <button type="submit"  class="btn btn-success">Create Paste</button>
+            <button type="submit" class="btn btn-success">Create Paste</button>
         </form>
     </div>
     <!-- Optional JavaScript -->
@@ -54,7 +55,7 @@
             console.log('clicked')
             const paste = document.querySelector("#paste").value;
             const expires = document.querySelector("#expire").value
-            
+
             fetch('/', {
                 method: "POST",
                 headers: {

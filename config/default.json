@@ -1,4 +1,4 @@
 {
-    "mongoDbUri" : "mongodb://localhost:27017",
+    "mongoDbUri" : "mongodb://localhost:27017/CutPaste",
     "baseUrl" : "http://localhost:3000"
 }
