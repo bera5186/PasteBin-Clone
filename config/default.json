@@ -1,4 +1,4 @@
 {
-    "mongoDbUri" : "mongodb://localhost:27017/CutPaste",
+    "mongoDbUri" : "mongodb+srv://rahulbera21:rahul123@cluster0-9qlne.mongodb.net/test?retryWrites=true&w=majority",
     "baseUrl" : "http://localhost:3000"
 }
