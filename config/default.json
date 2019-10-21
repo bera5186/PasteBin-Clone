@@ -1,3 +1,4 @@
 {
-    "mongoDbUri" : "mongodb://localhost:27017"
+    "mongoDbUri" : "mongodb://localhost:27017",
+    "baseUrl" : "http://localhost:3000"
 }
